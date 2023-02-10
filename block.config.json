@@ -1,0 +1,13 @@
+{
+  "name": "test_handler",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/devthalal/test_handler",
+    "ssh": "git@github.com:devthalal/test_handler.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
